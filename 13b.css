@@ -1,0 +1,28 @@
+.nested-flexbox{
+    display: flex;
+}
+
+.first-div{
+    background-color: lightpink;
+    width: 100px;
+    height: 50px;
+}
+
+.second-div{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+}
+
+.row2-external-div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row2-div-1,
+.row2-div-2{
+    background-color: black;
+    color: white;
+}

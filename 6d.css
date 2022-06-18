@@ -1,0 +1,22 @@
+p{
+    font-family: montserrat;
+    color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.mod{
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 34px;
+}
+
+.order{
+    color: rgb(43, 103, 138);
+    text-align: center;
+}
+
+.delivery{
+    text-decoration: underline;
+}

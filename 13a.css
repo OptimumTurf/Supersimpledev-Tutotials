@@ -1,0 +1,23 @@
+.nested-flexbox{
+    display: flex;
+    border-radius: 10px;
+}
+
+.first-div{
+    background-color: lightpink;
+    width: 100px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item1{
+    background-color: black;
+    color: white;
+}
+
+.second-div{
+    background-color: lightblue;
+    width: 200px;
+}

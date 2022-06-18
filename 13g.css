@@ -1,0 +1,80 @@
+p,
+div{
+    font-family: arial;
+    line-height: 20px;
+}
+
+.external-container{
+    display: flex;
+    width: 435px;
+    height: 300px;
+}
+
+.profile-pic-div{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.profile-pic{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-info-div{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.username-div{
+    display: flex;
+    margin-bottom: 3px;
+    
+}
+
+.name{
+    font-weight: bold;
+    margin: 0;
+    margin-right: 5px;
+}
+
+.username{
+    margin: 0;
+}
+
+.external-link{
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(214, 208, 208);
+    border-width: 1px;
+    margin-top: 10px;
+    width: 350px;
+    height: 100px;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.first-div{
+    background-color: rgb(214, 208, 208);
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.second-div{
+    display: flex;
+    flex-direction: column;
+    flex: 1;  
+}
+
+.link-youtube{
+    color: gray;
+    margin: 0;
+}

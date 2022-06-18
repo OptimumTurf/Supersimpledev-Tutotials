@@ -1,0 +1,16 @@
+.videos-container{
+    display: flex;
+    margin-top: 10px;
+}
+
+.video-div{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.thumbnail{
+    object-fit: contain;
+    object-position: center;
+    width: 500px;
+}

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Exercise 12g
+        </title>
+        <style>
+            p{
+                font-family: arial;
+                margin: 0;
+                font-size: 15px;
+            }
+
+            .flex-box{
+                display: flex;
+                flex-direction: column;
+            }
+            .profile-div,
+            .profile-2-div, 
+            .profile-3-div{
+                display: flex;
+                flex-direction: row;
+                border: none;
+                padding-top: 7px;
+                padding-bottom: 7px;
+                height: 60px;
+            }
+
+            .profile-pic{
+                border-radius: 25px;
+                width: 50px;
+                height: 50px;
+                object-fit: cover;
+                object-position: center;
+                margin-top: 5px;
+                width: 50px;
+            }
+
+            .profile-info-div{
+                margin-left: 10px;
+                width: 100px;
+            }
+
+            .name{
+                margin-bottom: 4px;
+                font-weight: bold;
+            }
+
+            .other-names{
+                color: grey;
+                margin-bottom: 4px;
+            }
+
+            .status{
+                font-size: 12px;
+                color: gray;
+            }
+
+            .follow-div{
+                margin-left: 100px;
+                margin-top: 12px;
+                width: 50px;
+            }
+
+            button{
+                padding-top: 7px;
+                padding-bottom: 7px;
+                padding-left: 10px;
+                padding-right: 10px;
+                font-weight: bold;
+                color: white;
+                background-color: rgb(0, 162, 255);
+                border: none;
+                border-radius: 4px;
+                font-size: 15px;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="flex-box">
+            <div class="profile-div">
+                <div class="profile-pic-div">
+                    <img class="profile-pic" src="images.jfif" alt="">
+
+                </div>
+                <div class="profile-info-div">
+                    <p class="name">
+                        oliver
+                    </p>
+                    <p class="other-names">
+                        the cat
+                    </p>
+                    <p class="status">
+                        Popular
+                    </p>
+                </div>
+                <div class="follow-div">
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="profile-2-div">
+                <div class="profile-pic-div">
+                    <img class="profile-pic" src="images.jfif" alt="">
+
+                </div>
+                <div class="profile-info-div">
+                    <p class="name">
+                        Mimi
+                    </p>
+                    <p class="other-names">
+                        Sleepy Cat
+                    </p>
+                    <p class="status">
+                        Popular
+                    </p>
+                </div>
+                <div class="follow-div">
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+            <div class="profile-3-div">
+                <div class="profile-pic-div">
+                    <img class="profile-pic" src="images.jfif" alt="">
+
+                </div>
+                <div class="profile-info-div">
+                    <p class="name">
+                        Rex
+                    </p>
+                    <p class="other-names">
+                        Happy Bulldog
+                    </p>
+                    <p class="status">
+                        Popular
+                    </p>
+                </div>
+                <div class="follow-div">
+                    <button>
+                        Follow
+                    </button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
